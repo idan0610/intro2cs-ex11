@@ -1,0 +1,43 @@
+idan0610
+305681132
+Idan Refaeli
+
+I discussed the exercise with: Eyel Cohen, Amit Tropp.
+
+=============================
+=  README for ex11  =
+=============================
+
+usage: python3.4
+
+==================
+=  Description:  =
+==================
+
+
+=============================
+=  List of submitted files: =
+=============================
+
+1. node.py -
+2. priority_queue.py -
+3. priority_queue_iterator.py -
+4. README - This file
+
+======================
+=  Special Comments  =
+======================
+Answers to questions:
+Task 9:
+If we will write the code lines given twice, on the second time nothing will
+ happen, because the iterator is not iterable, means that after the first
+ time the iteration iterates over all the nodes on queue, the current
+ variable keeps the each time the current node on queue will be None because
+ on the last iteration on the queue (the last node), current will be set as
+ None and the last task will be returned.
+
+Task 10:
+Now, if we will the code lines given twice, the tasks will be printed twice
+as expected, and that because every time we iterate over the queue, the
+program initiates a new PriorityQueueIterator object, means each iteration
+iterates the whole queue from beginning.
